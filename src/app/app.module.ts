@@ -6,13 +6,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { EscolhaPage } from './../pages/escolha/escolha';
 import { HttpClientModule } from '@angular/common/http';
 import { CarrosServiceProvider } from '../providers/carros-service/carros-service';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    EscolhaPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { CarrosServiceProvider } from '../providers/carros-service/carros-servic
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    EscolhaPage
   ],
   providers: [
     StatusBar,

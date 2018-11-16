@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, LoadingController, AlertController } from 'ionic-angular';
 import { Carro } from '../../models/carros';
 import { HttpErrorResponse } from '@angular/common/http'
