@@ -13,8 +13,7 @@ import { CarrosServiceProvider } from '../providers/carros-service/carros-servic
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    EscolhaPage
+    HomePage
   ],
   imports: [
     BrowserModule,
@@ -24,8 +23,7 @@ import { CarrosServiceProvider } from '../providers/carros-service/carros-servic
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    EscolhaPage
+    HomePage
   ],
   providers: [
     StatusBar,
